@@ -3,7 +3,7 @@ const { name } = require('./package');
 module.exports = {
     lintOnSave: false,
     css: {
-        extract: true,
+        extract: false,
     },
     devServer: {
         historyApiFallback: true,
